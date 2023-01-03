@@ -52,13 +52,16 @@ Cautions
     * Save cost: Estimating savings from more accurate pricing
     * New revenue opps: Developing new intervetions to increase revenue i.e. Pro-active offers.  
 <br />
+
 * Continue to iterate until performance improves: 
     * Best focus on the data quality and features
     * Hyperparameter tuning once the data is done
     * Test/ test/ val splits need refining dependand upon deployment scenario to more accurately represent the data used and inferred in prod.  
 <br />
+
 * Once an adequate performance and business benefit can be demonstrated (less technically), share within the business. The insight gained and predications made can be used by BI teams, Marketing, Finance, Product and Partnerships. 
 <br />
+
 * Other considerations:
     * Probabilities require calibration
     * Develop clear systems architecture for consumer systems: BI/ Live Pricing/ Customer comms/ Offers/ ...
