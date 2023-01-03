@@ -35,23 +35,6 @@ Cautions
 * Covariance among features means it requires the training to work harder.
 * Scaling helps make the space easier to navigate, however not done here for interpretability
 
-### Benchmarking
-* Dummy classifier predicting the baseline lapsed probability. 
-* Often averages like this are what we've got to beat initially. 
-* Provides a simple baseline to beat.
-
-### XGBoost
-* Performs well with higher feature numbers when compared to Logistic Regression.
-* Great for categorical and binary predictors. 
-* Probability calibration is usually good out of the box, compared to other tree based methods. 
-* Good interpretability with Tree Visualisations and SHAP method
-
-Cautions
-* Overfitting
-* There is a danger of 'coarse' splitting creating hard probabilities
-* Covariance among features means it requires the training to work harder.
-* Scaling helps make the space easier to navigate, however not done here for interpretability
-
 #### Talking points
 * Contents only insurance represents a lapsing risk (SUM_INSURED_BUILDINGS, AD_BUILDINGS)
 * Adding people or products/ sub products reduces a lapsing risk (LEGAL_ADDON_POST_REN, HP2_ADDON_POST_REN)
